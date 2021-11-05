@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B44EAC6627050F900019A801 /* ChallengeDay24HackingWithSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44EAC6527050F900019A801 /* ChallengeDay24HackingWithSwiftApp.swift */; };
+		B44EAC6827050F900019A801 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44EAC6727050F900019A801 /* ContentView.swift */; };
+		B44EAC6A27050F950019A801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44EAC6927050F950019A801 /* Assets.xcassets */; };
+		B44EAC6D27050F950019A801 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44EAC6C27050F950019A801 /* Preview Assets.xcassets */; };
+		B44EAC6F27050F950019A801 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44EAC6E27050F950019A801 /* Persistence.swift */; };
+		B44EAC7227050F950019A801 /* ChallengeDay24HackingWithSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B44EAC7027050F950019A801 /* ChallengeDay24HackingWithSwift.xcdatamodeld */; };
+		B44EAC7D27050F960019A801 /* ChallengeDay24HackingWithSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44EAC7C27050F960019A801 /* ChallengeDay24HackingWithSwiftTests.swift */; };
+		B44EAC8827050F960019A801 /* ChallengeDay24HackingWithSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44EAC8727050F960019A801 /* ChallengeDay24HackingWithSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B44EAC7927050F960019A801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B44EAC5A27050F900019A801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B44EAC6127050F900019A801;
+			remoteInfo = ChallengeDay24HackingWithSwift;
+		};
+		B44EAC8427050F960019A801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B44EAC5A27050F900019A801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B44EAC6127050F900019A801;
+			remoteInfo = ChallengeDay24HackingWithSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B44EAC6227050F900019A801 /* ChallengeDay24HackingWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeDay24HackingWithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44EAC6527050F900019A801 /* ChallengeDay24HackingWithSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDay24HackingWithSwiftApp.swift; sourceTree = "<group>"; };
+		B44EAC6727050F900019A801 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B44EAC6927050F950019A801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B44EAC6C27050F950019A801 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B44EAC6E27050F950019A801 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		B44EAC7127050F950019A801 /* ChallengeDay24HackingWithSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChallengeDay24HackingWithSwift.xcdatamodel; sourceTree = "<group>"; };
+		B44EAC7327050F950019A801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44EAC7827050F960019A801 /* ChallengeDay24HackingWithSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeDay24HackingWithSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44EAC7C27050F960019A801 /* ChallengeDay24HackingWithSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDay24HackingWithSwiftTests.swift; sourceTree = "<group>"; };
+		B44EAC7E27050F960019A801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44EAC8327050F960019A801 /* ChallengeDay24HackingWithSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeDay24HackingWithSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44EAC8727050F960019A801 /* ChallengeDay24HackingWithSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDay24HackingWithSwiftUITests.swift; sourceTree = "<group>"; };
+		B44EAC8927050F960019A801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B44EAC5F27050F900019A801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44EAC7527050F960019A801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44EAC8027050F960019A801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B44EAC5927050F900019A801 = {
+			isa = PBXGroup;
+			children = (
+				B44EAC6427050F900019A801 /* ChallengeDay24HackingWithSwift */,
+				B44EAC7B27050F960019A801 /* ChallengeDay24HackingWithSwiftTests */,
+				B44EAC8627050F960019A801 /* ChallengeDay24HackingWithSwiftUITests */,
+				B44EAC6327050F900019A801 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B44EAC6327050F900019A801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B44EAC6227050F900019A801 /* ChallengeDay24HackingWithSwift.app */,
+				B44EAC7827050F960019A801 /* ChallengeDay24HackingWithSwiftTests.xctest */,
+				B44EAC8327050F960019A801 /* ChallengeDay24HackingWithSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B44EAC6427050F900019A801 /* ChallengeDay24HackingWithSwift */ = {
+			isa = PBXGroup;
+			children = (
+				B44EAC6527050F900019A801 /* ChallengeDay24HackingWithSwiftApp.swift */,
+				B44EAC6727050F900019A801 /* ContentView.swift */,
+				B44EAC6927050F950019A801 /* Assets.xcassets */,
+				B44EAC6E27050F950019A801 /* Persistence.swift */,
+				B44EAC7327050F950019A801 /* Info.plist */,
+				B44EAC7027050F950019A801 /* ChallengeDay24HackingWithSwift.xcdatamodeld */,
+				B44EAC6B27050F950019A801 /* Preview Content */,
+			);
+			path = ChallengeDay24HackingWithSwift;
+			sourceTree = "<group>";
+		};
+		B44EAC6B27050F950019A801 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B44EAC6C27050F950019A801 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B44EAC7B27050F960019A801 /* ChallengeDay24HackingWithSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B44EAC7C27050F960019A801 /* ChallengeDay24HackingWithSwiftTests.swift */,
+				B44EAC7E27050F960019A801 /* Info.plist */,
+			);
+			path = ChallengeDay24HackingWithSwiftTests;
+			sourceTree = "<group>";
+		};
+		B44EAC8627050F960019A801 /* ChallengeDay24HackingWithSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B44EAC8727050F960019A801 /* ChallengeDay24HackingWithSwiftUITests.swift */,
+				B44EAC8927050F960019A801 /* Info.plist */,
+			);
+			path = ChallengeDay24HackingWithSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B44EAC6127050F900019A801 /* ChallengeDay24HackingWithSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B44EAC8C27050F960019A801 /* Build configuration list for PBXNativeTarget "ChallengeDay24HackingWithSwift" */;
+			buildPhases = (
+				B44EAC5E27050F900019A801 /* Sources */,
+				B44EAC5F27050F900019A801 /* Frameworks */,
+				B44EAC6027050F900019A801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChallengeDay24HackingWithSwift;
+			productName = ChallengeDay24HackingWithSwift;
+			productReference = B44EAC6227050F900019A801 /* ChallengeDay24HackingWithSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B44EAC7727050F960019A801 /* ChallengeDay24HackingWithSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B44EAC8F27050F960019A801 /* Build configuration list for PBXNativeTarget "ChallengeDay24HackingWithSwiftTests" */;
+			buildPhases = (
+				B44EAC7427050F960019A801 /* Sources */,
+				B44EAC7527050F960019A801 /* Frameworks */,
+				B44EAC7627050F960019A801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B44EAC7A27050F960019A801 /* PBXTargetDependency */,
+			);
+			name = ChallengeDay24HackingWithSwiftTests;
+			productName = ChallengeDay24HackingWithSwiftTests;
+			productReference = B44EAC7827050F960019A801 /* ChallengeDay24HackingWithSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B44EAC8227050F960019A801 /* ChallengeDay24HackingWithSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B44EAC9227050F960019A801 /* Build configuration list for PBXNativeTarget "ChallengeDay24HackingWithSwiftUITests" */;
+			buildPhases = (
+				B44EAC7F27050F960019A801 /* Sources */,
+				B44EAC8027050F960019A801 /* Frameworks */,
+				B44EAC8127050F960019A801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B44EAC8527050F960019A801 /* PBXTargetDependency */,
+			);
+			name = ChallengeDay24HackingWithSwiftUITests;
+			productName = ChallengeDay24HackingWithSwiftUITests;
+			productReference = B44EAC8327050F960019A801 /* ChallengeDay24HackingWithSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B44EAC5A27050F900019A801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B44EAC6127050F900019A801 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B44EAC7727050F960019A801 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B44EAC6127050F900019A801;
+					};
+					B44EAC8227050F960019A801 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B44EAC6127050F900019A801;
+					};
+				};
+			};
+			buildConfigurationList = B44EAC5D27050F900019A801 /* Build configuration list for PBXProject "ChallengeDay24HackingWithSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B44EAC5927050F900019A801;
+			productRefGroup = B44EAC6327050F900019A801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B44EAC6127050F900019A801 /* ChallengeDay24HackingWithSwift */,
+				B44EAC7727050F960019A801 /* ChallengeDay24HackingWithSwiftTests */,
+				B44EAC8227050F960019A801 /* ChallengeDay24HackingWithSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B44EAC6027050F900019A801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44EAC6D27050F950019A801 /* Preview Assets.xcassets in Resources */,
+				B44EAC6A27050F950019A801 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44EAC7627050F960019A801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44EAC8127050F960019A801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B44EAC5E27050F900019A801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44EAC7227050F950019A801 /* ChallengeDay24HackingWithSwift.xcdatamodeld in Sources */,
+				B44EAC6F27050F950019A801 /* Persistence.swift in Sources */,
+				B44EAC6827050F900019A801 /* ContentView.swift in Sources */,
+				B44EAC6627050F900019A801 /* ChallengeDay24HackingWithSwiftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44EAC7427050F960019A801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44EAC7D27050F960019A801 /* ChallengeDay24HackingWithSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44EAC7F27050F960019A801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44EAC8827050F960019A801 /* ChallengeDay24HackingWithSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B44EAC7A27050F960019A801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B44EAC6127050F900019A801 /* ChallengeDay24HackingWithSwift */;
+			targetProxy = B44EAC7927050F960019A801 /* PBXContainerItemProxy */;
+		};
+		B44EAC8527050F960019A801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B44EAC6127050F900019A801 /* ChallengeDay24HackingWithSwift */;
+			targetProxy = B44EAC8427050F960019A801 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B44EAC8A27050F960019A801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B44EAC8B27050F960019A801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B44EAC8D27050F960019A801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChallengeDay24HackingWithSwift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChallengeDay24HackingWithSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.harshkhandelwal.com.ChallengeDay24HackingWithSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B44EAC8E27050F960019A801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChallengeDay24HackingWithSwift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChallengeDay24HackingWithSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.harshkhandelwal.com.ChallengeDay24HackingWithSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B44EAC9027050F960019A801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChallengeDay24HackingWithSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.harshkhandelwal.com.ChallengeDay24HackingWithSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChallengeDay24HackingWithSwift.app/ChallengeDay24HackingWithSwift";
+			};
+			name = Debug;
+		};
+		B44EAC9127050F960019A801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChallengeDay24HackingWithSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.harshkhandelwal.com.ChallengeDay24HackingWithSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChallengeDay24HackingWithSwift.app/ChallengeDay24HackingWithSwift";
+			};
+			name = Release;
+		};
+		B44EAC9327050F960019A801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChallengeDay24HackingWithSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.harshkhandelwal.com.ChallengeDay24HackingWithSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChallengeDay24HackingWithSwift;
+			};
+			name = Debug;
+		};
+		B44EAC9427050F960019A801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChallengeDay24HackingWithSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.harshkhandelwal.com.ChallengeDay24HackingWithSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChallengeDay24HackingWithSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B44EAC5D27050F900019A801 /* Build configuration list for PBXProject "ChallengeDay24HackingWithSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44EAC8A27050F960019A801 /* Debug */,
+				B44EAC8B27050F960019A801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B44EAC8C27050F960019A801 /* Build configuration list for PBXNativeTarget "ChallengeDay24HackingWithSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44EAC8D27050F960019A801 /* Debug */,
+				B44EAC8E27050F960019A801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B44EAC8F27050F960019A801 /* Build configuration list for PBXNativeTarget "ChallengeDay24HackingWithSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44EAC9027050F960019A801 /* Debug */,
+				B44EAC9127050F960019A801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B44EAC9227050F960019A801 /* Build configuration list for PBXNativeTarget "ChallengeDay24HackingWithSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44EAC9327050F960019A801 /* Debug */,
+				B44EAC9427050F960019A801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B44EAC7027050F950019A801 /* ChallengeDay24HackingWithSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B44EAC7127050F950019A801 /* ChallengeDay24HackingWithSwift.xcdatamodel */,
+			);
+			currentVersion = B44EAC7127050F950019A801 /* ChallengeDay24HackingWithSwift.xcdatamodel */;
+			path = ChallengeDay24HackingWithSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B44EAC5A27050F900019A801 /* Project object */;
+}
