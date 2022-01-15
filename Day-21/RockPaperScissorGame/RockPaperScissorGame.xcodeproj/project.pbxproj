@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B46EA1222706071D009AF431 /* RockPaperScissorGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46EA1212706071D009AF431 /* RockPaperScissorGameApp.swift */; };
+		B46EA1242706071D009AF431 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46EA1232706071D009AF431 /* ContentView.swift */; };
+		B46EA12627060721009AF431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46EA12527060721009AF431 /* Assets.xcassets */; };
+		B46EA12927060721009AF431 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46EA12827060721009AF431 /* Preview Assets.xcassets */; };
+		B46EA12B27060721009AF431 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46EA12A27060721009AF431 /* Persistence.swift */; };
+		B46EA12E27060721009AF431 /* RockPaperScissorGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B46EA12C27060721009AF431 /* RockPaperScissorGame.xcdatamodeld */; };
+		B46EA13927060721009AF431 /* RockPaperScissorGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46EA13827060721009AF431 /* RockPaperScissorGameTests.swift */; };
+		B46EA14427060721009AF431 /* RockPaperScissorGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46EA14327060721009AF431 /* RockPaperScissorGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B46EA13527060721009AF431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B46EA1162706071D009AF431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46EA11D2706071D009AF431;
+			remoteInfo = RockPaperScissorGame;
+		};
+		B46EA14027060721009AF431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B46EA1162706071D009AF431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46EA11D2706071D009AF431;
+			remoteInfo = RockPaperScissorGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B46EA11E2706071D009AF431 /* RockPaperScissorGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissorGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46EA1212706071D009AF431 /* RockPaperScissorGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorGameApp.swift; sourceTree = "<group>"; };
+		B46EA1232706071D009AF431 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B46EA12527060721009AF431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B46EA12827060721009AF431 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B46EA12A27060721009AF431 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		B46EA12D27060721009AF431 /* RockPaperScissorGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RockPaperScissorGame.xcdatamodel; sourceTree = "<group>"; };
+		B46EA12F27060721009AF431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46EA13427060721009AF431 /* RockPaperScissorGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46EA13827060721009AF431 /* RockPaperScissorGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorGameTests.swift; sourceTree = "<group>"; };
+		B46EA13A27060721009AF431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46EA13F27060721009AF431 /* RockPaperScissorGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46EA14327060721009AF431 /* RockPaperScissorGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorGameUITests.swift; sourceTree = "<group>"; };
+		B46EA14527060721009AF431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B46EA11B2706071D009AF431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46EA13127060721009AF431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46EA13C27060721009AF431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B46EA1152706071D009AF431 = {
+			isa = PBXGroup;
+			children = (
+				B46EA1202706071D009AF431 /* RockPaperScissorGame */,
+				B46EA13727060721009AF431 /* RockPaperScissorGameTests */,
+				B46EA14227060721009AF431 /* RockPaperScissorGameUITests */,
+				B46EA11F2706071D009AF431 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B46EA11F2706071D009AF431 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B46EA11E2706071D009AF431 /* RockPaperScissorGame.app */,
+				B46EA13427060721009AF431 /* RockPaperScissorGameTests.xctest */,
+				B46EA13F27060721009AF431 /* RockPaperScissorGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B46EA1202706071D009AF431 /* RockPaperScissorGame */ = {
+			isa = PBXGroup;
+			children = (
+				B46EA1212706071D009AF431 /* RockPaperScissorGameApp.swift */,
+				B46EA1232706071D009AF431 /* ContentView.swift */,
+				B46EA12527060721009AF431 /* Assets.xcassets */,
+				B46EA12A27060721009AF431 /* Persistence.swift */,
+				B46EA12F27060721009AF431 /* Info.plist */,
+				B46EA12C27060721009AF431 /* RockPaperScissorGame.xcdatamodeld */,
+				B46EA12727060721009AF431 /* Preview Content */,
+			);
+			path = RockPaperScissorGame;
+			sourceTree = "<group>";
+		};
+		B46EA12727060721009AF431 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B46EA12827060721009AF431 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B46EA13727060721009AF431 /* RockPaperScissorGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				B46EA13827060721009AF431 /* RockPaperScissorGameTests.swift */,
+				B46EA13A27060721009AF431 /* Info.plist */,
+			);
+			path = RockPaperScissorGameTests;
+			sourceTree = "<group>";
+		};
+		B46EA14227060721009AF431 /* RockPaperScissorGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B46EA14327060721009AF431 /* RockPaperScissorGameUITests.swift */,
+				B46EA14527060721009AF431 /* Info.plist */,
+			);
+			path = RockPaperScissorGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B46EA11D2706071D009AF431 /* RockPaperScissorGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46EA14827060721009AF431 /* Build configuration list for PBXNativeTarget "RockPaperScissorGame" */;
+			buildPhases = (
+				B46EA11A2706071D009AF431 /* Sources */,
+				B46EA11B2706071D009AF431 /* Frameworks */,
+				B46EA11C2706071D009AF431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockPaperScissorGame;
+			productName = RockPaperScissorGame;
+			productReference = B46EA11E2706071D009AF431 /* RockPaperScissorGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B46EA13327060721009AF431 /* RockPaperScissorGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46EA14B27060721009AF431 /* Build configuration list for PBXNativeTarget "RockPaperScissorGameTests" */;
+			buildPhases = (
+				B46EA13027060721009AF431 /* Sources */,
+				B46EA13127060721009AF431 /* Frameworks */,
+				B46EA13227060721009AF431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B46EA13627060721009AF431 /* PBXTargetDependency */,
+			);
+			name = RockPaperScissorGameTests;
+			productName = RockPaperScissorGameTests;
+			productReference = B46EA13427060721009AF431 /* RockPaperScissorGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B46EA13E27060721009AF431 /* RockPaperScissorGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46EA14E27060721009AF431 /* Build configuration list for PBXNativeTarget "RockPaperScissorGameUITests" */;
+			buildPhases = (
+				B46EA13B27060721009AF431 /* Sources */,
+				B46EA13C27060721009AF431 /* Frameworks */,
+				B46EA13D27060721009AF431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B46EA14127060721009AF431 /* PBXTargetDependency */,
+			);
+			name = RockPaperScissorGameUITests;
+			productName = RockPaperScissorGameUITests;
+			productReference = B46EA13F27060721009AF431 /* RockPaperScissorGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B46EA1162706071D009AF431 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B46EA11D2706071D009AF431 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B46EA13327060721009AF431 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B46EA11D2706071D009AF431;
+					};
+					B46EA13E27060721009AF431 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B46EA11D2706071D009AF431;
+					};
+				};
+			};
+			buildConfigurationList = B46EA1192706071D009AF431 /* Build configuration list for PBXProject "RockPaperScissorGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B46EA1152706071D009AF431;
+			productRefGroup = B46EA11F2706071D009AF431 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B46EA11D2706071D009AF431 /* RockPaperScissorGame */,
+				B46EA13327060721009AF431 /* RockPaperScissorGameTests */,
+				B46EA13E27060721009AF431 /* RockPaperScissorGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B46EA11C2706071D009AF431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46EA12927060721009AF431 /* Preview Assets.xcassets in Resources */,
+				B46EA12627060721009AF431 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46EA13227060721009AF431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46EA13D27060721009AF431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B46EA11A2706071D009AF431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46EA12E27060721009AF431 /* RockPaperScissorGame.xcdatamodeld in Sources */,
+				B46EA12B27060721009AF431 /* Persistence.swift in Sources */,
+				B46EA1242706071D009AF431 /* ContentView.swift in Sources */,
+				B46EA1222706071D009AF431 /* RockPaperScissorGameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46EA13027060721009AF431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46EA13927060721009AF431 /* RockPaperScissorGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46EA13B27060721009AF431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46EA14427060721009AF431 /* RockPaperScissorGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B46EA13627060721009AF431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B46EA11D2706071D009AF431 /* RockPaperScissorGame */;
+			targetProxy = B46EA13527060721009AF431 /* PBXContainerItemProxy */;
+		};
+		B46EA14127060721009AF431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B46EA11D2706071D009AF431 /* RockPaperScissorGame */;
+			targetProxy = B46EA14027060721009AF431 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B46EA14627060721009AF431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B46EA14727060721009AF431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B46EA14927060721009AF431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RockPaperScissorGame/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RockPaperScissorGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.harshkhandelwal.com.RockPaperScissorGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B46EA14A27060721009AF431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RockPaperScissorGame/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RockPaperScissorGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.harshkhandelwal.com.RockPaperScissorGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B46EA14C27060721009AF431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RockPaperScissorGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.harshkhandelwal.com.RockPaperScissorGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockPaperScissorGame.app/RockPaperScissorGame";
+			};
+			name = Debug;
+		};
+		B46EA14D27060721009AF431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RockPaperScissorGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.harshkhandelwal.com.RockPaperScissorGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockPaperScissorGame.app/RockPaperScissorGame";
+			};
+			name = Release;
+		};
+		B46EA14F27060721009AF431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RockPaperScissorGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.harshkhandelwal.com.RockPaperScissorGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RockPaperScissorGame;
+			};
+			name = Debug;
+		};
+		B46EA15027060721009AF431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RockPaperScissorGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.harshkhandelwal.com.RockPaperScissorGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RockPaperScissorGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B46EA1192706071D009AF431 /* Build configuration list for PBXProject "RockPaperScissorGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46EA14627060721009AF431 /* Debug */,
+				B46EA14727060721009AF431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46EA14827060721009AF431 /* Build configuration list for PBXNativeTarget "RockPaperScissorGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46EA14927060721009AF431 /* Debug */,
+				B46EA14A27060721009AF431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46EA14B27060721009AF431 /* Build configuration list for PBXNativeTarget "RockPaperScissorGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46EA14C27060721009AF431 /* Debug */,
+				B46EA14D27060721009AF431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46EA14E27060721009AF431 /* Build configuration list for PBXNativeTarget "RockPaperScissorGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46EA14F27060721009AF431 /* Debug */,
+				B46EA15027060721009AF431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B46EA12C27060721009AF431 /* RockPaperScissorGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B46EA12D27060721009AF431 /* RockPaperScissorGame.xcdatamodel */,
+			);
+			currentVersion = B46EA12D27060721009AF431 /* RockPaperScissorGame.xcdatamodel */;
+			path = RockPaperScissorGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B46EA1162706071D009AF431 /* Project object */;
+}
