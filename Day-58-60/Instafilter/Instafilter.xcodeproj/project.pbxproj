@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4930B5E2747ADAB007DCF15 /* InstafilterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4930B5D2747ADAB007DCF15 /* InstafilterApp.swift */; };
+		B4930B602747ADAB007DCF15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4930B5F2747ADAB007DCF15 /* ContentView.swift */; };
+		B4930B622747ADAE007DCF15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4930B612747ADAE007DCF15 /* Assets.xcassets */; };
+		B4930B652747ADAE007DCF15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4930B642747ADAE007DCF15 /* Preview Assets.xcassets */; };
+		B4930B672747ADAE007DCF15 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4930B662747ADAE007DCF15 /* Persistence.swift */; };
+		B4930B6A2747ADAE007DCF15 /* Instafilter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4930B682747ADAE007DCF15 /* Instafilter.xcdatamodeld */; };
+		B4930B742747ADAE007DCF15 /* InstafilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4930B732747ADAE007DCF15 /* InstafilterTests.swift */; };
+		B4930B7E2747ADAE007DCF15 /* InstafilterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4930B7D2747ADAE007DCF15 /* InstafilterUITests.swift */; };
+		B4930B802747ADAE007DCF15 /* InstafilterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4930B7F2747ADAE007DCF15 /* InstafilterUITestsLaunchTests.swift */; };
+		B4930B8E2747FA0F007DCF15 /* Lesson1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4930B8D2747FA0F007DCF15 /* Lesson1.swift */; };
+		B4930B9027490D80007DCF15 /* Lecture2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4930B8F27490D80007DCF15 /* Lecture2.swift */; };
+		B4930B9227491FCD007DCF15 /* Lecture3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4930B9127491FCD007DCF15 /* Lecture3.swift */; };
+		B4930B96274924CB007DCF15 /* Lecture4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4930B95274924CB007DCF15 /* Lecture4.swift */; };
+		B4C974E7274E742D0037E7F5 /* SaveImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C974E6274E742C0037E7F5 /* SaveImage.swift */; };
+		B4D6DEBD274CE5E40072C113 /* Lecture6.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D6DEBC274CE5E40072C113 /* Lecture6.swift */; };
+		B4D6DEBF274CE6260072C113 /* ImagePickerCoordinators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D6DEBE274CE6260072C113 /* ImagePickerCoordinators.swift */; };
+		B4D6DEC3274D0E3B0072C113 /* Lecture7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D6DEC2274D0E3B0072C113 /* Lecture7.swift */; };
+		B4D6DEC5274D1B550072C113 /*  ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D6DEC4274D1B550072C113 /*  ImagePicker.swift */; };
+		B4F4B6F8274BB5C400F370D3 /* Lecture5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F4B6F7274BB5C400F370D3 /* Lecture5.swift */; };
+		B4F4B6FB274BD32400F370D3 /* ImagePickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F4B6FA274BD32400F370D3 /* ImagePickers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4930B702747ADAE007DCF15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4930B522747ADAB007DCF15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4930B592747ADAB007DCF15;
+			remoteInfo = Instafilter;
+		};
+		B4930B7A2747ADAE007DCF15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4930B522747ADAB007DCF15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4930B592747ADAB007DCF15;
+			remoteInfo = Instafilter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4930B5A2747ADAB007DCF15 /* Instafilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instafilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4930B5D2747ADAB007DCF15 /* InstafilterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterApp.swift; sourceTree = "<group>"; };
+		B4930B5F2747ADAB007DCF15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B4930B612747ADAE007DCF15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4930B642747ADAE007DCF15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4930B662747ADAE007DCF15 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		B4930B692747ADAE007DCF15 /* Instafilter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Instafilter.xcdatamodel; sourceTree = "<group>"; };
+		B4930B6F2747ADAE007DCF15 /* InstafilterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstafilterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4930B732747ADAE007DCF15 /* InstafilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterTests.swift; sourceTree = "<group>"; };
+		B4930B792747ADAE007DCF15 /* InstafilterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstafilterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4930B7D2747ADAE007DCF15 /* InstafilterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterUITests.swift; sourceTree = "<group>"; };
+		B4930B7F2747ADAE007DCF15 /* InstafilterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4930B8D2747FA0F007DCF15 /* Lesson1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson1.swift; sourceTree = "<group>"; };
+		B4930B8F27490D80007DCF15 /* Lecture2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture2.swift; sourceTree = "<group>"; };
+		B4930B9127491FCD007DCF15 /* Lecture3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture3.swift; sourceTree = "<group>"; };
+		B4930B95274924CB007DCF15 /* Lecture4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture4.swift; sourceTree = "<group>"; };
+		B4C974E6274E742C0037E7F5 /* SaveImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveImage.swift; sourceTree = "<group>"; };
+		B4D6DEBC274CE5E40072C113 /* Lecture6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture6.swift; sourceTree = "<group>"; };
+		B4D6DEBE274CE6260072C113 /* ImagePickerCoordinators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCoordinators.swift; sourceTree = "<group>"; };
+		B4D6DEC2274D0E3B0072C113 /* Lecture7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture7.swift; sourceTree = "<group>"; };
+		B4D6DEC4274D1B550072C113 /*  ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ImagePicker.swift"; sourceTree = "<group>"; };
+		B4F4B6F7274BB5C400F370D3 /* Lecture5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture5.swift; sourceTree = "<group>"; };
+		B4F4B6FA274BD32400F370D3 /* ImagePickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4930B572747ADAB007DCF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4930B6C2747ADAE007DCF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4930B762747ADAE007DCF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4930B512747ADAB007DCF15 = {
+			isa = PBXGroup;
+			children = (
+				B4930B5C2747ADAB007DCF15 /* Instafilter */,
+				B4930B722747ADAE007DCF15 /* InstafilterTests */,
+				B4930B7C2747ADAE007DCF15 /* InstafilterUITests */,
+				B4930B5B2747ADAB007DCF15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4930B5B2747ADAB007DCF15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4930B5A2747ADAB007DCF15 /* Instafilter.app */,
+				B4930B6F2747ADAE007DCF15 /* InstafilterTests.xctest */,
+				B4930B792747ADAE007DCF15 /* InstafilterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4930B5C2747ADAB007DCF15 /* Instafilter */ = {
+			isa = PBXGroup;
+			children = (
+				B4930B8C2747F9F9007DCF15 /* PractiseSession */,
+				B4930B5D2747ADAB007DCF15 /* InstafilterApp.swift */,
+				B4930B5F2747ADAB007DCF15 /* ContentView.swift */,
+				B4930B612747ADAE007DCF15 /* Assets.xcassets */,
+				B4930B662747ADAE007DCF15 /* Persistence.swift */,
+				B4930B682747ADAE007DCF15 /* Instafilter.xcdatamodeld */,
+				B4930B632747ADAE007DCF15 /* Preview Content */,
+				B4D6DEC4274D1B550072C113 /*  ImagePicker.swift */,
+				B4C974E6274E742C0037E7F5 /* SaveImage.swift */,
+			);
+			path = Instafilter;
+			sourceTree = "<group>";
+		};
+		B4930B632747ADAE007DCF15 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B4930B642747ADAE007DCF15 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4930B722747ADAE007DCF15 /* InstafilterTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4930B732747ADAE007DCF15 /* InstafilterTests.swift */,
+			);
+			path = InstafilterTests;
+			sourceTree = "<group>";
+		};
+		B4930B7C2747ADAE007DCF15 /* InstafilterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4930B7D2747ADAE007DCF15 /* InstafilterUITests.swift */,
+				B4930B7F2747ADAE007DCF15 /* InstafilterUITestsLaunchTests.swift */,
+			);
+			path = InstafilterUITests;
+			sourceTree = "<group>";
+		};
+		B4930B8C2747F9F9007DCF15 /* PractiseSession */ = {
+			isa = PBXGroup;
+			children = (
+				B4D6DEC0274D0E070072C113 /* Part3 */,
+				B4930B94274924BC007DCF15 /* Part2 */,
+				B4930B9327492494007DCF15 /* Part1 */,
+			);
+			path = PractiseSession;
+			sourceTree = "<group>";
+		};
+		B4930B9327492494007DCF15 /* Part1 */ = {
+			isa = PBXGroup;
+			children = (
+				B4930B8D2747FA0F007DCF15 /* Lesson1.swift */,
+				B4930B8F27490D80007DCF15 /* Lecture2.swift */,
+				B4930B9127491FCD007DCF15 /* Lecture3.swift */,
+			);
+			path = Part1;
+			sourceTree = "<group>";
+		};
+		B4930B94274924BC007DCF15 /* Part2 */ = {
+			isa = PBXGroup;
+			children = (
+				B4930B95274924CB007DCF15 /* Lecture4.swift */,
+				B4F4B6F9274BD2FE00F370D3 /* Lecture5 */,
+			);
+			path = Part2;
+			sourceTree = "<group>";
+		};
+		B4D6DEBB274CE5BE0072C113 /* Lecture6 */ = {
+			isa = PBXGroup;
+			children = (
+				B4D6DEBC274CE5E40072C113 /* Lecture6.swift */,
+				B4D6DEBE274CE6260072C113 /* ImagePickerCoordinators.swift */,
+			);
+			path = Lecture6;
+			sourceTree = "<group>";
+		};
+		B4D6DEC0274D0E070072C113 /* Part3 */ = {
+			isa = PBXGroup;
+			children = (
+				B4D6DEC1274D0E1E0072C113 /* Lecture7 */,
+				B4D6DEBB274CE5BE0072C113 /* Lecture6 */,
+			);
+			path = Part3;
+			sourceTree = "<group>";
+		};
+		B4D6DEC1274D0E1E0072C113 /* Lecture7 */ = {
+			isa = PBXGroup;
+			children = (
+				B4D6DEC2274D0E3B0072C113 /* Lecture7.swift */,
+			);
+			path = Lecture7;
+			sourceTree = "<group>";
+		};
+		B4F4B6F9274BD2FE00F370D3 /* Lecture5 */ = {
+			isa = PBXGroup;
+			children = (
+				B4F4B6F7274BB5C400F370D3 /* Lecture5.swift */,
+				B4F4B6FA274BD32400F370D3 /* ImagePickers.swift */,
+			);
+			path = Lecture5;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4930B592747ADAB007DCF15 /* Instafilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4930B832747ADAE007DCF15 /* Build configuration list for PBXNativeTarget "Instafilter" */;
+			buildPhases = (
+				B4930B562747ADAB007DCF15 /* Sources */,
+				B4930B572747ADAB007DCF15 /* Frameworks */,
+				B4930B582747ADAB007DCF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instafilter;
+			productName = Instafilter;
+			productReference = B4930B5A2747ADAB007DCF15 /* Instafilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4930B6E2747ADAE007DCF15 /* InstafilterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4930B862747ADAE007DCF15 /* Build configuration list for PBXNativeTarget "InstafilterTests" */;
+			buildPhases = (
+				B4930B6B2747ADAE007DCF15 /* Sources */,
+				B4930B6C2747ADAE007DCF15 /* Frameworks */,
+				B4930B6D2747ADAE007DCF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4930B712747ADAE007DCF15 /* PBXTargetDependency */,
+			);
+			name = InstafilterTests;
+			productName = InstafilterTests;
+			productReference = B4930B6F2747ADAE007DCF15 /* InstafilterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4930B782747ADAE007DCF15 /* InstafilterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4930B892747ADAE007DCF15 /* Build configuration list for PBXNativeTarget "InstafilterUITests" */;
+			buildPhases = (
+				B4930B752747ADAE007DCF15 /* Sources */,
+				B4930B762747ADAE007DCF15 /* Frameworks */,
+				B4930B772747ADAE007DCF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4930B7B2747ADAE007DCF15 /* PBXTargetDependency */,
+			);
+			name = InstafilterUITests;
+			productName = InstafilterUITests;
+			productReference = B4930B792747ADAE007DCF15 /* InstafilterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4930B522747ADAB007DCF15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B4930B592747ADAB007DCF15 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B4930B6E2747ADAE007DCF15 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B4930B592747ADAB007DCF15;
+					};
+					B4930B782747ADAE007DCF15 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B4930B592747ADAB007DCF15;
+					};
+				};
+			};
+			buildConfigurationList = B4930B552747ADAB007DCF15 /* Build configuration list for PBXProject "Instafilter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4930B512747ADAB007DCF15;
+			productRefGroup = B4930B5B2747ADAB007DCF15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4930B592747ADAB007DCF15 /* Instafilter */,
+				B4930B6E2747ADAE007DCF15 /* InstafilterTests */,
+				B4930B782747ADAE007DCF15 /* InstafilterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4930B582747ADAB007DCF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4930B652747ADAE007DCF15 /* Preview Assets.xcassets in Resources */,
+				B4930B622747ADAE007DCF15 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4930B6D2747ADAE007DCF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4930B772747ADAE007DCF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4930B562747ADAB007DCF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4930B672747ADAE007DCF15 /* Persistence.swift in Sources */,
+				B4930B96274924CB007DCF15 /* Lecture4.swift in Sources */,
+				B4D6DEBD274CE5E40072C113 /* Lecture6.swift in Sources */,
+				B4930B9227491FCD007DCF15 /* Lecture3.swift in Sources */,
+				B4D6DEC5274D1B550072C113 /*  ImagePicker.swift in Sources */,
+				B4930B8E2747FA0F007DCF15 /* Lesson1.swift in Sources */,
+				B4930B6A2747ADAE007DCF15 /* Instafilter.xcdatamodeld in Sources */,
+				B4C974E7274E742D0037E7F5 /* SaveImage.swift in Sources */,
+				B4930B602747ADAB007DCF15 /* ContentView.swift in Sources */,
+				B4930B5E2747ADAB007DCF15 /* InstafilterApp.swift in Sources */,
+				B4D6DEC3274D0E3B0072C113 /* Lecture7.swift in Sources */,
+				B4D6DEBF274CE6260072C113 /* ImagePickerCoordinators.swift in Sources */,
+				B4F4B6FB274BD32400F370D3 /* ImagePickers.swift in Sources */,
+				B4930B9027490D80007DCF15 /* Lecture2.swift in Sources */,
+				B4F4B6F8274BB5C400F370D3 /* Lecture5.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4930B6B2747ADAE007DCF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4930B742747ADAE007DCF15 /* InstafilterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4930B752747ADAE007DCF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4930B802747ADAE007DCF15 /* InstafilterUITestsLaunchTests.swift in Sources */,
+				B4930B7E2747ADAE007DCF15 /* InstafilterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4930B712747ADAE007DCF15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4930B592747ADAB007DCF15 /* Instafilter */;
+			targetProxy = B4930B702747ADAE007DCF15 /* PBXContainerItemProxy */;
+		};
+		B4930B7B2747ADAE007DCF15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4930B592747ADAB007DCF15 /* Instafilter */;
+			targetProxy = B4930B7A2747ADAE007DCF15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B4930B812747ADAE007DCF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4930B822747ADAE007DCF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4930B842747ADAE007DCF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Instafilter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save the filtered photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harsh.Instafilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4930B852747ADAE007DCF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Instafilter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save the filtered photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harsh.Instafilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4930B872747ADAE007DCF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harsh.InstafilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instafilter.app/Instafilter";
+			};
+			name = Debug;
+		};
+		B4930B882747ADAE007DCF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harsh.InstafilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instafilter.app/Instafilter";
+			};
+			name = Release;
+		};
+		B4930B8A2747ADAE007DCF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harsh.InstafilterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Instafilter;
+			};
+			name = Debug;
+		};
+		B4930B8B2747ADAE007DCF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harsh.InstafilterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Instafilter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4930B552747ADAB007DCF15 /* Build configuration list for PBXProject "Instafilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4930B812747ADAE007DCF15 /* Debug */,
+				B4930B822747ADAE007DCF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4930B832747ADAE007DCF15 /* Build configuration list for PBXNativeTarget "Instafilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4930B842747ADAE007DCF15 /* Debug */,
+				B4930B852747ADAE007DCF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4930B862747ADAE007DCF15 /* Build configuration list for PBXNativeTarget "InstafilterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4930B872747ADAE007DCF15 /* Debug */,
+				B4930B882747ADAE007DCF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4930B892747ADAE007DCF15 /* Build configuration list for PBXNativeTarget "InstafilterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4930B8A2747ADAE007DCF15 /* Debug */,
+				B4930B8B2747ADAE007DCF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B4930B682747ADAE007DCF15 /* Instafilter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B4930B692747ADAE007DCF15 /* Instafilter.xcdatamodel */,
+			);
+			currentVersion = B4930B692747ADAE007DCF15 /* Instafilter.xcdatamodel */;
+			path = Instafilter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B4930B522747ADAB007DCF15 /* Project object */;
+}
